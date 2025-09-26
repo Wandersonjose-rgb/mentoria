@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class EntradaDeDados{
+    public static void main (String[] args){
+        Scanner dteclado= new Scanner(System.in);
+        double temperatura , fahrenheit,kelvin;
+         temperatura= dteclado.nextDouble();
+         System.out.println("digite a temperatura");
+         fahrenheit=(temperatura*9/5)+32;
+         kelvin=temperatura+273.15;
+         System.out.println("o clima esta com a temperatura"+ temperatura);
+         System.out.println("a temperatura em fahrenheit"+fahrenheit);
+         System.out.println("a temperatura em kelvin"+kelvin);
+     }
+      }
